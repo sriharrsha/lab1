@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="in.ac.vit.sriharrsha.lab1.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who is the CEO of Google?"
+        android:id="@+id/question"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Bill Gates"
+        android:id="@+id/option1"
+        android:layout_marginTop="75dp"
+        android:onClick="Button1Clicked"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Sathya Nadella"
+        android:id="@+id/option2"
+        android:onClick="Button2Clicked"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Sundar Pichai"
+        android:id="@+id/option3"
+        android:layout_marginBottom="132dp"
+        android:onClick="Button3Clicked"
+        android:layout_weight="1" />
+</LinearLayout>
